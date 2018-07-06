@@ -12,7 +12,7 @@ import sword.to.offer.ListNode;
 *	注意输出结果是存储在ArrayList中的，不用打印；
 **/
 
-public class Main1_3 {
+public class Main1_03 {
 	//使用递归方法
 	static ArrayList<Integer> test = new ArrayList<>();
     public static ArrayList<Integer> printListFromTailToHead(ListNode listNode) {

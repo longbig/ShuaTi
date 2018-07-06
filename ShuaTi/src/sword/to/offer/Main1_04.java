@@ -10,7 +10,7 @@ import sword.to.offer.TreeNode;
 *描述：通过前序遍历,和中序遍历序列 重建二叉树,返回树的根节点
 *
 **/
-public class Main1_4 {
+public class Main1_04 {
 	/**
 	 * 
 	 * @param pre 前序遍历序列

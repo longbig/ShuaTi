@@ -2,7 +2,7 @@ package sword.to.offer;
 
 import sword.to.offer.TreeNode;
 
-import static sword.to.offer.Main1_4.*;
+import static sword.to.offer.Main1_04.*;
 /**
 *日期：2018年5月16日 下午3:48:57
 *@author 龙
