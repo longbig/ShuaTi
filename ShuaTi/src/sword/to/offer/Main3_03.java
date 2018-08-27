@@ -15,7 +15,7 @@ import java.util.Queue;
 *即“XYZdefabc”。
 *是不是很简单？OK，搞定它！
 **/
-public class Main3_3 {
+public class Main3_03 {
 	
 	//定义左移一位的函数
 	public static String LeftOneString(String str) {

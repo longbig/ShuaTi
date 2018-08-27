@@ -7,7 +7,7 @@ package sword.to.offer;
 *要求不能使用乘除法、for、while、if、else、switch、case等
 *关键字及条件判断语句（A?B:C）。
 **/
-public class Main3_7 {
+public class Main3_07 {
 	
 	//使用递归，分治的方法解决
     public static int Sum_Solution(int n) {
