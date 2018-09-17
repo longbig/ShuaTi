@@ -1,4 +1,4 @@
-package gbits;
+package gbits2018;
 
 import java.util.Scanner;
 
