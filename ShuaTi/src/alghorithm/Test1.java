@@ -1,10 +1,19 @@
 package alghorithm;
 
+import java.util.HashMap;
+import java.util.Hashtable;
 
 public class Test1{
 	public static void main(String[] args) {
-		int[] array = {1,2,3,66,44,3};
-		new Test1().findOne(array);
+		int i = -5;
+//		System.out.println(Math.round(11));
+		
+//		String str1 = "test";
+//		String str2 = "test";
+//		String str3 = new String("test");
+//		String str4 = new String("test");
+//		System.out.println((str1 == str2) +" "+ (str1 == str3) + (str3==str4));
+		System.out.println(func(65530));
 	}
 	
 	public void findOne(int[] array) {
@@ -21,6 +30,15 @@ public class Test1{
 			}
 		}
 		System.out.println(result);
+	}
+	
+	private static int func(int x) {
+		int countx = 0;
+		while(x != 0) {
+			countx++;
+			x = x & (x - 1);
+		}
+		return countx;
 	}
 }
 
